@@ -14,13 +14,8 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-Our code can run on four datasets.
 
-### Duplicate question identification datasets
-* Quora Question Pairs
-* CQADupStack
-
-### Natural language inference datasets
+* Quora Question Pairs (QQP)
 * SNLI
 * MultiNLI
 
