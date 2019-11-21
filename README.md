@@ -1,5 +1,8 @@
 # A3V
+pip install -r requirements.txt
 
+BERT as service
+Please use the bert-as-service, and then run BERT.
 
 data_preprocessing configs are defined in config/preprocessing
 train configs are defined in config/training
