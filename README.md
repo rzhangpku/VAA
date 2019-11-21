@@ -59,20 +59,9 @@ To get Kaggle Open Evaluation submission file:
 python esim_mnli_test.py
 python top_bert_mnli_test.py
 
-```
-python test_bert_quora.py
-python test_bert_cqadup.py
-python test_bert_snli.py
-python test_bert_mnli.py
-```
 
-### Test the models with ELMo
+### Test
 
-```
-python test_elmo_quora.py
-python test_elmo_snli.py
-python test_elmo_mnli.py
-```
 
 ## Report issues
 Please let us know, if you encounter any problems.
