@@ -5,8 +5,8 @@ Definition of the ESIM model.
 
 import torch
 import torch.nn as nn
-from mfae.layers import RNNDropout, Seq2SeqEncoder, SoftmaxAttention
-from mfae.utils import replace_masked
+from a3v.layers import RNNDropout, Seq2SeqEncoder, SoftmaxAttention
+from a3v.utils import replace_masked
 import math
 from torch.nn.modules.transformer import *
 

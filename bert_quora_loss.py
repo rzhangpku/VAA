@@ -4,7 +4,7 @@ Train the ESIM model on the preprocessed SNLI dataset.
 # Aurelien Coet, 2018.
 
 from utils.utils_transformer import train_loss
-from mfae.model_transformer import ESIM
+from a3v.model_transformer import ESIM
 import torch.nn as nn
 import matplotlib.pyplot as plt
 import os

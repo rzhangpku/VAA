@@ -4,7 +4,7 @@ Train the ESIM model on the preprocessed SNLI dataset.
 # Aurelien Coet, 2018.
 
 from utils.runned.utils_test_two import validate
-from mfae.model_transformer import ESIM
+from a3v.model_transformer import ESIM
 import os
 import argparse
 import json
