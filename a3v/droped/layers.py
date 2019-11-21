@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.modules.activation import MultiheadAttention
-from mfae.utils import sort_by_seq_lens, masked_softmax, weighted_sum, normal_softmax
+from a3v.utils import sort_by_seq_lens, masked_softmax, weighted_sum, normal_softmax
 
 # Class widely inspired from:
 # https://github.com/allenai/allennlp/blob/master/allennlp/modules/input_variational_dropout.py

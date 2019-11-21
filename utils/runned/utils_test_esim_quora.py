@@ -5,7 +5,7 @@ import time
 import torch
 import torch.nn as nn
 import pandas as pd
-from mfae.utils import correct_predictions
+from a3v.utils import correct_predictions
 from bert_serving.client import BertClient
 import numpy as np
 from torch.autograd import Variable

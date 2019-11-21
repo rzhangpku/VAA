@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 import torch.nn as nn
 
 from torch.utils.data import DataLoader
-from mfae.data import NLIDataset
-from mfae.model import ESIM
+from a3v.data import NLIDataset
+from a3v.model import ESIM
 from utils.utils_esim import train, validate
 
 

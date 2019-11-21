@@ -15,58 +15,49 @@ pip install -r requirements.txt
 
 ## Datasets
 
+BERT as service
+Please use the bert-as-service, and then run BERT.
+
+data_preprocessing configs are defined in config/preprocessing
+train configs are defined in config/training
+the valid process is contained in each train epoch
 * Quora Question Pairs (QQP)
 * SNLI
 * MultiNLI
 
-## Preprocess the data
-After the datasets have been downloaded, you can preprocess the data.
-
-### Preprocess the data for BERT
-```
-cd scripts/preprocessing
-python process_quora_bert.py
-python preprocess_cqadup_bert.py
-python preprocess_snli_bert.py
-python process_mnli_bert.py
-```
-
-### Preprocess the data for ELMo
-```
-cd scripts/preprocessing
-python process_quora.py
+all the data preprocessing file in scripts/preprocessing:
+ESIM:
+python preprocess_quora.py
 python preprocess_snli.py
 python preprocess_mnli.py
-```
+BERT:
+python preprocess_quora_bert.py
+python preprocess_snli_bert.py
+python preprocess_mnli_bert.py
 
-## Train
-### BERT as service
-If you want to train models with BERT word embedding, please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), and then run the following scripts.
+Stage One:pre-train model A
+ESIM:
+python esim_quora.py 
+python esim_snli.py
+python esim_mnli.py
+BERT:
+python bert_quora.py
+python bert_snli.py
+python bert_mnli.py
 
-### Train all models
-```
-sh -x run.sh
-```
+Stage Two:fine-tuning model B
+ESIM:
+python top_esim_quora.py
+python top_esim_snli.py
+python top_esim_mnli.py
+BERT:
+python top_bert_quora.py
+python top_bert_snli.py
+python top_bert_mnli.py
 
-### Train with BERT
-```
-python bert_quora.py >> log/quora/quora_bert.log
-python bert_cqadup.py >> log/cqadup/cqadup_bert.log
-python bert_snli.py >> log/snli/snli_bert.log
-python bert_mnli.py >> log/mnli/mnli_bert.log
-```
-
-### Train with ELMo
-```
-python train_quora_elmo.py >> log/quora/quora_elmo.log
-python train_snli_elmo.py >> log/snli/snli_elmo.log
-python train_mnli_elmo.py >> log/mnli/mnli_elmo.log
-```
-
-## Test
-After the models have been trained, you can test the models.
-
-### Test the models with BERT
+To get Kaggle Open Evaluation submission file:
+python esim_mnli_test.py
+python top_bert_mnli_test.py
 
 ```
 python test_bert_quora.py
