@@ -21,17 +21,17 @@ pip install -r requirements.txt
 ## Notices
 ### BERT as service
 
-Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), and then run BERT.
+Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), then run BERT.
 
 ### Configs
 Data preprocessing configs are defined in config/preprocessing.
 
 Train configs are defined in config/training.
 
-### validation
+### Validation
 The valid process can be contained in each train epoch.
 
-## Preprocessing
+## Preprocess
 all the data preprocessing file in scripts/preprocessing.
 
 ### ESIM
