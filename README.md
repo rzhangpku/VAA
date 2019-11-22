@@ -14,27 +14,30 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-* Quora Question Pairs (QQP)
-* SNLI
-* MultiNLI
+* [Quora Question Pairs (QQP)](https://drive.google.com/file/d/0B0PlTAo--BnaQWlsZl9FZ3l1c28/view)
+* [SNLI](https://nlp.stanford.edu/projects/snli/)
+* [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/)
 
-## BERT as service
+## Notices
+### BERT as service
 
-Please use the bert-as-service, and then run BERT.
+Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), and then run BERT.
 
-data_preprocessing configs are defined in config/preprocessing
+### Configs
+Data preprocessing configs are defined in config/preprocessing.
 
+Train configs are defined in config/training.
 
-train configs are defined in config/training
-
-the valid process is contained in each train epoch
+### validation
+The valid process can be contained in each train epoch.
 
 ## Preprocessing
-all the data preprocessing file in scripts/preprocessing:
+all the data preprocessing file in scripts/preprocessing.
 
 ### ESIM
 
 ```
+cd scripts/preprocessing
 python preprocess_quora.py
 python preprocess_snli.py
 python preprocess_mnli.py
@@ -42,6 +45,7 @@ python preprocess_mnli.py
 ### BERT
 
 ```
+cd scripts/preprocessing
 python preprocess_quora_bert.py
 python preprocess_snli_bert.py
 python preprocess_mnli_bert.py
