@@ -86,7 +86,7 @@ python top_bert_mnli.py
 ```
 
 ### Test
-To get Kaggle Open Evaluation submission file:
+To get Kaggle open evaluation submission file for MultiNLI dataset:
 
 ```
 python esim_mnli_test.py
