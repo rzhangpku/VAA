@@ -59,7 +59,6 @@ To get Kaggle Open Evaluation submission file:
 python esim_mnli_test.py
 python top_bert_mnli_test.py
 
-
 ### Test
 
 
