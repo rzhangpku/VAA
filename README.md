@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-* [Quora Question Pairs (QQP)](https://drive.google.com/file/d/0B0PlTAo--BnaQWlsZl9FZ3l1c28/view)
+* [Quora Question Pairs (QQP)](https://drive.google.com/file/d/0B0PlTAo--BnaQWlsZl9FZ3l1c28/view?usp=sharing)
 * [SNLI](https://nlp.stanford.edu/projects/snli/)
 * [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/)
 
