@@ -32,7 +32,7 @@ Train configs are defined in config/training.
 The valid process can be contained in each train epoch.
 
 ## Preprocess
-all the data preprocessing file in scripts/preprocessing.
+All the data preprocessing file in scripts/preprocessing.
 
 ### ESIM
 
