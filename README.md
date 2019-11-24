@@ -4,7 +4,7 @@
 This repository includes the source code of the paper "Enhancing Neural Models with Asymmetrical Vulnerability via Adversarial Attack". Please cite our paper when you use this program! 😍
 
 ## Model overview
-![](https://i.loli.net/2019/11/21/gVDjRvxpUkZGIbq.png)
+![](https://i.loli.net/2019/11/24/lXU8FeADJu1LnKx.png)
 
 ## Requirements
 python3
