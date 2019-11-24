@@ -51,7 +51,7 @@ python preprocess_snli_bert.py
 python preprocess_mnli_bert.py
 ```
 ## Train
-### Stage One: pre-train model A
+### Stage one: pre-train model A
 #### ESIM
 
 ```
@@ -68,7 +68,7 @@ python bert_snli.py
 python bert_mnli.py
 ```
 
-### Stage Two: fine-tuning model B
+### Stage two: fine-tune model B
 #### ESIM
 
 ```
