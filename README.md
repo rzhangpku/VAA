@@ -28,9 +28,6 @@ Data preprocessing configs are defined in config/preprocessing.
 
 Train configs are defined in config/training.
 
-### Validation
-The valid process can be contained in each train epoch.
-
 ## Preprocess
 All the data preprocessing file in scripts/preprocessing.
 
@@ -85,8 +82,15 @@ python top_bert_snli.py
 python top_bert_mnli.py
 ```
 
+### Validate
+The valid process is contained in each training epoch.
+
 ### Test
-To get Kaggle open evaluation submission file for MultiNLI dataset:
+#### QQP and SNLI
+The test process is contained in each training epoch for QQP and SNLI datasets.
+
+#### MultiNLI
+For MultiNLI dataset, the following scripts should be run to get submission file and submit to .
 
 ```
 python esim_mnli_test.py
