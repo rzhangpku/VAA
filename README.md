@@ -18,12 +18,7 @@ pip install -r requirements.txt
 * [SNLI](https://nlp.stanford.edu/projects/snli/)
 * [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/)
 
-## Notices
-### BERT as service
-
-Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), then run BERT.
-
-### Configs
+## Configs
 Data preprocessing configs are defined in config/preprocessing.
 
 Train configs are defined in config/training.
@@ -47,6 +42,9 @@ python preprocess_quora_bert.py
 python preprocess_snli_bert.py
 python preprocess_mnli_bert.py
 ```
+## BERT as service
+Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), then run BERT.
+
 ## Train
 ### Stage one: pre-train model A
 #### ESIM
@@ -82,15 +80,15 @@ python top_bert_snli.py
 python top_bert_mnli.py
 ```
 
-### Validate
-The valid process is contained in each training epoch.
+## Validate
+The validation process is contained in each training process, and you can validate by just running the training file to get the results before training.
 
-### Test
-#### QQP and SNLI
+## Test
+### QQP and SNLI
 The test process is contained in each training epoch for QQP and SNLI datasets.
 
-#### MultiNLI
-For MultiNLI dataset, the following scripts should be run to get submission file and submit to .
+### MultiNLI
+For MultiNLI dataset, the following scripts should be run to get submission files and then submit them to [MultiNLI Matched Open Evaluation](https://www.kaggle.com/c/multinli-matched-open-evaluation) and [MultiNLI Mismatched Open Evaluation](https://www.kaggle.com/c/multinli-mismatched-open-evaluation).
 
 ```
 python esim_mnli_test.py
