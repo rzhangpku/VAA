@@ -29,7 +29,8 @@ Data preprocessing configs are defined in config/preprocessing.
 Train configs are defined in config/training.
 
 ### Validation
-The valid process can be contained in each train epoch.
+The valid process can be contained in each train process, and you can valid by
+just running the train file to get the results at before training.
 
 ## Preprocess
 All the data preprocessing file in scripts/preprocessing.
