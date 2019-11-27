@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ## Configs
 Data preprocessing configs are defined in config/preprocessing.
 
-Train configs are defined in config/training.
+Training configs are defined in config/training.
 
 ## Preprocess
 All the data preprocessing file in scripts/preprocessing.
@@ -42,8 +42,9 @@ python preprocess_quora_bert.py
 python preprocess_snli_bert.py
 python preprocess_mnli_bert.py
 ```
+
 ## BERT as service
-Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), then run BERT.
+Please use the [bert-as-service](https://github.com/hanxiao/bert-as-service), then train/validate/test BERT.
 
 ## Train
 ### Stage one: pre-train model A
@@ -88,7 +89,7 @@ The validation process is contained in each training process, and you can valida
 The test process is contained in each training epoch for QQP and SNLI datasets.
 
 ### MultiNLI
-For MultiNLI dataset, the following scripts should be run to get submission files and then submit them to [MultiNLI Matched Open Evaluation](https://www.kaggle.com/c/multinli-matched-open-evaluation) and [MultiNLI Mismatched Open Evaluation](https://www.kaggle.com/c/multinli-mismatched-open-evaluation).
+For MultiNLI dataset, the following scripts should be run to get submission files and then submit the files to [MultiNLI Matched Open Evaluation](https://www.kaggle.com/c/multinli-matched-open-evaluation) and [MultiNLI Mismatched Open Evaluation](https://www.kaggle.com/c/multinli-mismatched-open-evaluation).
 
 ```
 python esim_mnli_test.py
