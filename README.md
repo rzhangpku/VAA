@@ -24,7 +24,7 @@ Data preprocessing configs are defined in config/preprocessing.
 Training configs are defined in config/training.
 
 ## Preprocess
-All the data preprocessing file in scripts/preprocessing.
+All the data preprocessing scripts are in scripts/preprocessing.
 
 ### ESIM
 
@@ -82,14 +82,14 @@ python top_bert_mnli.py
 ```
 
 ## Validate
-The validation process is contained in each training process, and you can validate by just running the training file to get the results before training.
+The validation process is contained in each training process. And you can validate by just running the training scripts to get the validation results before training.
 
 ## Test
 ### QQP and SNLI
-The test process is contained in each training epoch for QQP and SNLI datasets.
+The testing processes are contained in each training epoch for QQP and SNLI datasets.
 
 ### MultiNLI
-For MultiNLI dataset, the following scripts should be run to get submission files and then submit the files to [MultiNLI Matched Open Evaluation](https://www.kaggle.com/c/multinli-matched-open-evaluation) and [MultiNLI Mismatched Open Evaluation](https://www.kaggle.com/c/multinli-mismatched-open-evaluation).
+For MultiNLI dataset, the following scripts should be run to get submission files, and then the files should be submited to [MultiNLI Matched Open Evaluation](https://www.kaggle.com/c/multinli-matched-open-evaluation) and [MultiNLI Mismatched Open Evaluation](https://www.kaggle.com/c/multinli-mismatched-open-evaluation).
 
 ```
 python esim_mnli_test.py
@@ -97,7 +97,7 @@ python top_bert_mnli_test.py
 ```
 
 ## Report issues
-Please let us know, if you encounter any problems.
+Please let us know if you encounter any problems.
 
 The contact email is rzhangpku@pku.edu.cn
 
