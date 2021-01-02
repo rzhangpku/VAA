@@ -6,7 +6,7 @@ import torchvision
 import torchvision.transforms as transforms
 import os
 import torch
-from a3v.droped.resnet import PreActResNet18
+from vaa.droped.resnet import PreActResNet18
 
 # Training
 def train(epoch):

@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import pandas as pd
 from tqdm import tqdm
-from a3v.utils import correct_predictions
+from vaa.utils import correct_predictions
 from bert_serving.client import BertClient
 
 

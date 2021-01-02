@@ -10,7 +10,7 @@ import argparse
 import fnmatch
 import json
 
-from a3v.data import Preprocessor
+from vaa.data import Preprocessor
 
 
 def preprocess_MNLI_data(inputdir,

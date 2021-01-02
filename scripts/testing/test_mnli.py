@@ -10,8 +10,8 @@ import torch
 import json
 
 from torch.utils.data import DataLoader
-from a3v.data import NLIDataset
-from a3v.model import ESIM
+from vaa.data import NLIDataset
+from vaa.model import ESIM
 
 
 def predict(model, dataloader, labeldict):

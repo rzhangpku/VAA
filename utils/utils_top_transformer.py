@@ -5,7 +5,7 @@ import time
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-from a3v.utils import correct_predictions
+from vaa.utils import correct_predictions
 from bert_serving.client import BertClient
 from utils.utils_base import *
 

@@ -9,7 +9,7 @@ import numpy as np
 import torch.nn as nn
 
 from tqdm import tqdm
-from a3v.utils import correct_predictions
+from vaa.utils import correct_predictions
 
 
 def train(model,

@@ -10,10 +10,10 @@ import pickle
 import argparse
 import torch
 import numpy as np
-from a3v.data import ElmoDataset
+from vaa.data import ElmoDataset
 from torch.utils.data import DataLoader
-from a3v.model_elmo2 import ESIM
-from a3v.utils import correct_predictions
+from vaa.model_elmo2 import ESIM
+from vaa.utils import correct_predictions
 from sklearn import metrics
 from allennlp.modules.elmo import batch_to_ids
 

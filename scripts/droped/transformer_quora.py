@@ -4,8 +4,8 @@ Train the ESIM model on the preprocessed SNLI dataset.
 # Aurelien Coet, 2018.
 
 from utils.utils_transformer import train, validate
-from a3v.droped import TransformerESIM as ESIM
-# from a3v.model_esim import ESIM
+from vaa.droped import TransformerESIM as ESIM
+# from vaa.model_esim import ESIM
 import torch.nn as nn
 import matplotlib.pyplot as plt
 import os

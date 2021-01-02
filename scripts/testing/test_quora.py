@@ -9,9 +9,9 @@ import argparse
 import torch
 
 from torch.utils.data import DataLoader
-from a3v.data import NLIDataset
-from a3v.model import ESIM
-from a3v.utils import correct_predictions
+from vaa.data import NLIDataset
+from vaa.model import ESIM
+from vaa.utils import correct_predictions
 from sklearn import metrics
 
 

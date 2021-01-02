@@ -5,7 +5,7 @@ Utility functions for training and validating models.
 import time
 import torch.nn as nn
 from tqdm import tqdm
-from a3v.utils import correct_predictions
+from vaa.utils import correct_predictions
 from utils.utils_base import *
 
 def train(model,

@@ -5,8 +5,8 @@ import torchvision
 import torchvision.transforms as transforms
 import os
 import torch
-from a3v.droped.resnet import PreActResNet18
-from a3v.droped.resnet_top import PreActResNet18Top
+from vaa.droped.resnet import PreActResNet18
+from vaa.droped.resnet_top import PreActResNet18Top
 from torch.autograd import Variable
 import sys
 

@@ -4,8 +4,8 @@ Train the ESIM model on the preprocessed SNLI dataset.
 # Aurelien Coet, 2018.
 
 from utils.utils_esim import train, validate
-from a3v.model import ESIM
-from a3v.data import NLIDataset
+from vaa.model import ESIM
+from vaa.data import NLIDataset
 from torch.utils.data import DataLoader
 import torch.nn as nn
 import matplotlib.pyplot as plt
