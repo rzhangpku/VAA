@@ -14,7 +14,7 @@ This repository includes the source code of the paper "Enhancing Neural Models w
 ```
 
 ## Model overview
-![](https://i.loli.net/2019/11/21/gVDjRvxpUkZGIbq.png)
+![8qcdsmvVge4HtSi](https://i.loli.net/2021/01/02/8qcdsmvVge4HtSi.png)
 
 ## Requirements
 python3
