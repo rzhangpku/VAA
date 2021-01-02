@@ -1,7 +1,17 @@
 # Enhancing Neural Models with Vulnerability via Adversarial Attack
 
 ## Description
-This repository includes the source code of the paper "Enhancing Neural Models with Vulnerability via Adversarial Attack". Please cite our paper when you use this program! 😍 This paper has been accepted to the conference "International Conference on Computational Linguistics (COLING20)".
+This repository includes the source code of the paper "Enhancing Neural Models with Vulnerability via Adversarial Attack". Please cite our paper when you use this program! 😍 This paper has been accepted to the conference "International Conference on Computational Linguistics (COLING20)". This paper can be downloaded [here](https://www.aclweb.org/anthology/2020.coling-main.98.pdf).
+
+```
+@inproceedings{zhang2020enhancing,
+  title={Enhancing Neural Models with Vulnerability via Adversarial Attack},
+  author={Zhang, Rong and Zhou, Qifei and An, Bo and Li, Weiping and Mo, Tong and Wu, Bo},
+  booktitle={Proceedings of the 28th International Conference on Computational Linguistics},
+  pages={1133--1146},
+  year={2020}
+}
+```
 
 ## Model overview
 ![](https://i.loli.net/2019/11/21/gVDjRvxpUkZGIbq.png)
